@@ -1,109 +1,55 @@
+
+<!-- START: View: /Views/Common/Page.cshtml -->
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Content-Security-Policy" content="object-src 'none'" />
-    <script
-      type="text/javascript"
-      src="/assets/js/iframeResizer.min.js"
-    ></script>
+<html lang="en" >
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="object-src 'none'">
+<script type="text/javascript" src="https://presscloud.com/nr/lib/iframe-resizer/js/iframeResizer.min.js"></script>
 
     <!-- Primary metadata -->
     <title>Global Transport and Logistics | AMG</title>
     <meta name="title" content="Global Transport and Logistics | AMG" />
-    <meta
-      name="description"
-      content="Global transport and logistics - road, air, sea, rail freight and warehousing. Contact us today."
-    />
-    <link rel="canonical" href="https://www.amg.com/en/" />
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1.0"
-    />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="Global transport and logistics - road, air, sea, rail freight and warehousing. Contact us today." />
+    <link rel="canonical" href="https://www.dsv.com/en/" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
     <meta name="sc-region-language" content="en" />
     <meta name="sc-pagetype" content="" />
 
     <!-- Preload for Fonts -->
-    <link
-      rel="preload"
-      href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Demi.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="preload"
-      href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Bold.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="preload"
-      href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Book.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="preload"
-      href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Light.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="preload"
-      href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-ExtraBold.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin="anonymous"
-    />
+    <link rel="preload" href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Demi.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Book.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-ExtraBold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
     <!-- Favicons -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="https://dsv-media-premium.azureedge.net/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="https://dsv-media-premium.azureedge.net/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="https://dsv-media-premium.azureedge.net/favicon-16x16.png"
-    />
-    <link
-      rel="mask-icon"
-      href="https://dsv-media-premium.azureedge.net/safari-pinned-tab.svg"
-      color="#b70f18"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://dsv-media-premium.azureedge.net/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://dsv-media-premium.azureedge.net/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://dsv-media-premium.azureedge.net/favicon-16x16.png">
+    <link rel="mask-icon" href="https://dsv-media-premium.azureedge.net/safari-pinned-tab.svg" color="#b70f18">
 
     <!-- Critical css -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css">
 
     <!-- Noncritial css -->
-    <link rel="preload" type="text/css" href="/assets/css/main.min.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.min2.css" />
+    <link rel="preload" type="text/css" href="/assets/css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.min2.css">
     <noscript>
-      <link rel="stylesheet" type="text/css" href="/assets/css/main.min3.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.min3.css">
     </noscript>
 
-    <link rel="preload" href="/assets/js/main.min2.js" />
+    <link rel="preload" href="/assets/js/main.min2.js">
 
-    <script defer src="/assets/js/modernizr.js"></script>
-  </head>
+    <script defer src="/assets/js/modernizr.js"></script>  
+</head>
 
-  <body>
+<body>
+  
     <header class="header">
       <div class="page-content__container">
         <div class="header__top">
@@ -138,7 +84,7 @@
             <nav
               class="nav"
               role="navigation"
-              data-context-item-id="{2FFE5C8B-E18F-47E9-81F7-1CBCA1953A37}"
+              data-context-item-id="{33B0EF78-A1D9-49C5-B12C-1BAB42C7EB34}"
               data-current-menu-level="2"
               data-translation-back-button="Back"
               data-translation-see-page="See page"
@@ -217,7 +163,7 @@
                 </li>
                 <li class="nav__main-item">
                   <a
-                    class="nav__link expandable selected"
+                    class="nav__link expandable"
                     href="/en/our-solutions"
                     data-item-id="{AA0A7B8B-B986-4658-B4F9-F20735DD5B43}"
                     data-current-menu-level="2"
@@ -310,7 +256,7 @@
                 </li>
                 <li class="nav__main-item">
                   <a
-                    class="nav__link expandable"
+                    class="nav__link expandable selected"
                     href="/en/insights"
                     data-item-id="{561B1345-62F4-4AD5-8450-1E14BA2C6361}"
                     data-current-menu-level="2"
@@ -556,7 +502,7 @@
                 <li class="nav__main-item">
                   <a
                     class="nav__link expandable"
-                    href="/en/about-amg"
+                    href="/en/about-dsv"
                     data-item-id="{1FF24950-2CE6-4489-B8CD-F37070B4DF0C}"
                     data-current-menu-level="2"
                     data-item-title="About AMG"
@@ -573,7 +519,7 @@
                     <button class="nav__back-button">Back</button>
                     <a
                       class="nav__sub__header"
-                      href="/en/about-amg"
+                      href="/en/about-dsv"
                       data-item-id="{1FF24950-2CE6-4489-B8CD-F37070B4DF0C}"
                       data-current-menu-level="1"
                     >
@@ -798,7 +744,7 @@
                 </li>
               </ul>
             </nav>
-            <!-- END: Controller: Menu. Action: Menu Time taken: 17ms -->
+            <!-- END: Controller: Menu. Action: Menu Time taken: 22ms -->
           </div>
         </div>
       </div>
@@ -820,44 +766,57 @@
                 </a>
               </li>
               <li>
-                <a href="/en/our-solutions" title="Our solutions">
-                  <span>Our solutions</span>
+                <a href="/en/insights" title="Insights">
+                  <span>Insights</span>
                 </a>
               </li>
               <li>
-                <p>Contract logistics</p>
+                <p>Expert opinions</p>
               </li>
             </ul>
           </nav>
         </div>
       </section>
-
+      <!-- content begin -->
+      <!-- END: Controller: Breadcrumb. Action: Breadcrumb Time taken: 1ms -->
+      <!-- START: Controller: Breadcrumb. Action: Breadcrumb -->
+      <!-- END: Controller: Breadcrumb. Action: Breadcrumb Time taken: 0ms -->
+      <!-- START: Controller: FlyOut. Action: FlyOut -->
+      <div class="flyout">
+        <a
+          class="cta cta--primary"
+          href="/en/support/quote-request?id11=1&amp;id16=11&amp;id32=5"
+          >Get a quote</a
+        >
+      </div>
+      <!-- END: Controller: FlyOut. Action: FlyOut Time taken: 0ms -->
+      <!-- START: Controller: Banner. Action: Banner -->
       <section
-        id="{06A5A6EC-AF59-4531-BC21-644697F971A6}"
-        class="banner module module-box-position--left box-theme--darkblue module-font-size--medium module-theme--white module-padding--small module-cta--primary"
+        id="{2AFB6CCC-EFAE-4B53-B09B-BDD900A623EA}"
+        class="banner module module-box-position--left box-theme--lightblue module-font-size--large module-theme--white module-padding--small module-cta--primary"
       >
         <div
           class="module__background banner__background banner__background--has-image"
         >
           <img
             src='data:image/svg+xml,%3Csvg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 640 480"%3E%3C/svg%3E'
-            alt="contract logistics"
+            alt="Expert opinions"
             srcset="
-              https://dsv-media-premium.azureedge.net/~/media/corporate/banner/banner-1045/solutions/dk_hedehusene_je_073_3840x1045.jpg?rev=d86cd7ff0fb3473ba6ed841c8ff47204&w=481   481w,
-              https://dsv-media-premium.azureedge.net/~/media/corporate/banner/banner-1045/solutions/dk_hedehusene_je_073_3840x1045.jpg?rev=d86cd7ff0fb3473ba6ed841c8ff47204&w=769   769w,
-              https://dsv-media-premium.azureedge.net/~/media/corporate/banner/banner-1045/solutions/dk_hedehusene_je_073_3840x1045.jpg?rev=d86cd7ff0fb3473ba6ed841c8ff47204&w=1024 1024w,
-              https://dsv-media-premium.azureedge.net/~/media/corporate/banner/banner-1045/solutions/dk_hedehusene_je_073_3840x1045.jpg?rev=d86cd7ff0fb3473ba6ed841c8ff47204&w=1280 1280w,
-              https://dsv-media-premium.azureedge.net/~/media/corporate/banner/banner-1045/solutions/dk_hedehusene_je_073_3840x1045.jpg?rev=d86cd7ff0fb3473ba6ed841c8ff47204&w=1440 1440w,
-              https://dsv-media-premium.azureedge.net/~/media/corporate/banner/banner-1045/solutions/dk_hedehusene_je_073_3840x1045.jpg?rev=d86cd7ff0fb3473ba6ed841c8ff47204&w=1920 1920w
+              https://dsv-media-premium.azureedge.net/~/media/corporate/banner/banner-1045/com-images/insights/dsv_2023_insights_3_3840x1045.jpg?rev=e169bf08ef6f47ae92a84f56b7aa65dd&w=481   481w,
+              https://dsv-media-premium.azureedge.net/~/media/corporate/banner/banner-1045/com-images/insights/dsv_2023_insights_3_3840x1045.jpg?rev=e169bf08ef6f47ae92a84f56b7aa65dd&w=769   769w,
+              https://dsv-media-premium.azureedge.net/~/media/corporate/banner/banner-1045/com-images/insights/dsv_2023_insights_3_3840x1045.jpg?rev=e169bf08ef6f47ae92a84f56b7aa65dd&w=1024 1024w,
+              https://dsv-media-premium.azureedge.net/~/media/corporate/banner/banner-1045/com-images/insights/dsv_2023_insights_3_3840x1045.jpg?rev=e169bf08ef6f47ae92a84f56b7aa65dd&w=1280 1280w,
+              https://dsv-media-premium.azureedge.net/~/media/corporate/banner/banner-1045/com-images/insights/dsv_2023_insights_3_3840x1045.jpg?rev=e169bf08ef6f47ae92a84f56b7aa65dd&w=1440 1440w,
+              https://dsv-media-premium.azureedge.net/~/media/corporate/banner/banner-1045/com-images/insights/dsv_2023_insights_3_3840x1045.jpg?rev=e169bf08ef6f47ae92a84f56b7aa65dd&w=1920 1920w
             "
           />
         </div>
         <div class="banner__content">
           <div class="page-content__container">
             <div class="banner__box module-box theme-text-color">
-              <h1 class="module__header box-text-color">Contract logistics</h1>
+              <h1 class="module__header box-text-color">Expert opinions</h1>
               <p class="module__manchet box-text-color">
-                From warehousing to freight management
+                Gain knowledge about transport and logistics
               </p>
             </div>
           </div>
@@ -866,320 +825,97 @@
       <!-- END: Controller: Banner. Action: Banner Time taken: 0ms -->
       <!-- START: Controller: Banner. Action: Banner -->
       <!-- END: Controller: Banner. Action: Banner Time taken: 0ms -->
-      <!-- START: Controller: SubnavigationBar. Action: SubnavigationBar -->
-      <!-- content end -->
-      <div
-        id="{2FFE5C8B-E18F-47E9-81F7-1CBCA1953A37}"
-        class="module subnavigation-bar module-theme--white"
-      >
-        <div class="page-content__container">
-          <div class="subnavigation-bar__wrapper">
-            <ul class="subnavigation-bar__list">
-              <li class="subnavigation-bar__item">
-                <a
-                  href="/en/our-solutions/contract-logistics/warehousing"
-                  class=""
-                >
-                  <span>Warehousing</span>
-                </a>
-              </li>
-              <li class="subnavigation-bar__item">
-                <a
-                  href="/en/our-solutions/contract-logistics/ecommerce-solutions"
-                  class=""
-                >
-                  <span>E-commerce solutions</span>
-                </a>
-              </li>
-              <li class="subnavigation-bar__item">
-                <a
-                  href="/en/our-solutions/contract-logistics/inventory-management-services"
-                  class=""
-                >
-                  <span>Inventory management services</span>
-                </a>
-              </li>
-              <li class="subnavigation-bar__item">
-                <a
-                  href="/en/our-solutions/contract-logistics/logistics-manufacturing-services"
-                  class=""
-                >
-                  <span>Logistics manufacturing services</span>
-                </a>
-              </li>
-              <li class="subnavigation-bar__item">
-                <a
-                  href="/en/our-solutions/contract-logistics/inventory-scan"
-                  class=""
-                >
-                  <span>Inventory scan</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <!-- START: Controller: SearchAndFilter. Action: SearchAndFilter -->
+      <!-- START: Controller: Frontendscript. Action: Frontendscript -->
+      <script
+        type="text/javascript"
+        src="/frontend/Frontline/dist/static/js/runtime-styles.modern.15e1d8f0.js"
+      ></script>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="/frontend/Frontline/dist/static/css/styles.modern.0e433876.chunk.css"
+      />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="/frontend/Frontline/dist/static/css/main.modern.1f566e74.chunk.css"
+      />
+      <link
+        rel="modulepreload"
+        href="/frontend/Frontline/dist/static/js/runtime-main.modern.b1e0abc7.js"
+      />
+      <link
+        rel="modulepreload"
+        href="/frontend/Frontline/dist/static/js/4.modern.bde2b0df.chunk.js"
+      />
+      <link
+        rel="modulepreload"
+        href="/frontend/Frontline/dist/static/js/main.modern.4f8995a6.chunk.js"
+      />
+      <script>
+        self.m = 1;
+        function $l(e, c) {
+          (c = document.createElement("script")),
+            self.m ? e && ((c.src = e), (c.type = "module")) : e && (c.src = e),
+            c.src && document.head.appendChild(c);
+        }
+
+        addEventListener("load", function () {
+          $l(
+            "/frontend/Frontline/dist/static/js/runtime-main.modern.b1e0abc7.js"
+          );
+          $l("/frontend/Frontline/dist/static/js/4.modern.bde2b0df.chunk.js");
+          $l(
+            "/frontend/Frontline/dist/static/js/main.modern.4f8995a6.chunk.js"
+          );
+        });
+      </script>
+      <!-- END: Controller: Frontendscript. Action: Frontendscript Time taken: 0ms -->
+      <div id="34d256ce-cdfc-4fa4-9f08-ec77cc854a94" data-react-element="App">
+        <script type="text/props">
+
+          {"jsonModel": {"itemId":"34d256ce-cdfc-4fa4-9f08-ec77cc854a94","baseSearchUrl":"/api/v1/searchandfilter/search?searchProfile=www.dsv.com-en&pageSize=15&filters=companySize|industry|solutionType&datasourceId={34D256CE-CDFC-4FA4-9F08-EC77CC854A94}","headline":"More Expert Opinions","manchet":"","resultText":"# results","selectedLabel":"Selected","headingRanking":"h2","hidePaging":false,"moduleClasses":["module-theme--grey","module-padding--extra-small","box-theme--lightblue","","module-font-size--medium","module-columns--3","module-align-content--center"],"defaultFilterOptions":{"ScPageType":["expertinsights"]}},
+          "reactComponent": "searchandfilter"}
+        </script>
       </div>
-      <!-- content begin -->
-      <!-- END: Controller: SubnavigationBar. Action: SubnavigationBar Time taken: 1ms -->
-      <!-- START: Controller: TextModule. Action: TextModule -->
+      <!-- END: Controller: SearchAndFilter. Action: SearchAndFilter Time taken: 0ms -->
+      <!-- START: Controller: ContactUs. Action: ContactUs -->
       <section
-        id="{04B839C0-8E5F-48F5-9F45-1A7ED119489D}"
-        class="module text module-theme--white module-font-size--medium module-padding--extra-small"
+        id="{4BC58302-8278-4D8E-91FC-085141C76001}"
+        class="module contact-us module-theme--grey module-cta--primary module-font-size--medium"
       >
-        <div class="page-content__container page-content__container--small">
-          <h2 class="module__header theme-text-color">Contract logistics</h2>
-          <p class="module__manchet theme-text-color">
-            AMG operates over 500 warehouses with a total capacity of more than
-            7.5 million square metres, and we are building in many more
-            locations.
-          </p>
-          <div class="rte text__content">
-            <h2>Do you need to hold stock close to your end customers?</h2>
-            <p>
-              We provide integrated warehousing and distribution on a global
-              scale, yet still provide local flexibility. Our skilled local
-              teams customise their services to meet your precise needs.
-            </p>
-            <p>
-              <a
-                rel="noopener noreferrer"
-                href="https://www.dsv.com/en/support/find-dsv?officeCity=&amp;officeCountry=&amp;officeLocationType=&amp;officeRegion=&amp;officeService=Contract%20logistics&amp;officeType=&amp;q=%2A"
-                target="_blank"
-                class="cta--primary"
-                >See list of offices with logistics offerings</a
-              >
-            </p>
-            <h2>
-              Do you prefer to centralise storage at regional distribution
-              centres?
-            </h2>
-            <p>
-              That's no problem either. All our solutions are scalable and can
-              be customised to your needs - as we recognise that no two
-              businesses are identical.
-            </p>
-            <p>
-              Whatever your logistics needs, AMG can offer you the logistics
-              setup that best suits your needs. Maybe you are unsure which is
-              the best solution for you, in which case our supply chain analysts
-              can be of assistance - working with you to analyse centres of
-              gravity and determining the best locations to hold stock.
-            </p>
-            <h2>
-              Start-up businesses are just as welcome as large multinationals.
-            </h2>
-            <p>
-              Maybe you're a startup that needs logistics advice and solutions
-              in order to go global. With our scalable solutions and local
-              support, it's easy to add more warehousing in another location
-              when the need arises. We work with you to create a future-proof
-              logistics setup to facilitate and support your future growth.
-            </p>
-            <h2>Are there specific solutions for my industry?</h2>
-            <p>
-              Yes, industry-specific warehouse facilities and capabilities are
-              available for companies in the automotive, industrial, high-tech,
-              consumer products and healthcare sectors. But whatever your
-              industry, we can tailor a solution to your needs.
-            </p>
-            <p>
-              For example, we built a special low-oxygen warehouse to store
-              <a href="/en/insights/case-studies/cargill-cocoa-and-chocolate"
-                >cocoa</a
-              >
-              , which is highly flammable in large quantities.
-            </p>
-            <h2>What IT systems for logistics are there?</h2>
-            <p>
-              Our CargoWrite warehouse management system is based on
-              best-of-breed JDA (previously RedPrairie) technology. It can be
-              integrated with any customer ERP system and has been specially
-              designed to accommodate demanding logistics scenarios such as
-              bonded warehousing, virtual warehousing, Vendor Managed Inventory
-              and a number of certified warehouse operations (e.g. GDP for the
-              pharmaceutical industry).
-            </p>
-            <p>
-              <a href="/en/why-dsv/connectivity" class="cta--primary"
-                >Read more about connectivity options</a
-              >
-            </p>
-            <h2>I need fulfilment services</h2>
-            <p>
-              You are in the right place. AMG offers tailor-made logistics
-              solutions for e-commerce spanning a wide range of products, from
-              sports, leisure and fashion to electronic devices and more.
-            </p>
-            <p>
-              Pick and pack is the core of fulfilment but AMG can also offer
-              associated services such as financial fulfilment, e-fulfilment,
-              inventory management, returns handling and customer service. In
-              selected locations we can offer a total
-              <a
-                href="/en/our-solutions/contract-logistics/warehousing/fulfilment"
-                >multichannel fulfilment service</a
-              >
-              .&nbsp;
-            </p>
-            <h2>What are the basic processes involved?</h2>
-            <div>&nbsp;</div>
-            <p>
-              <strong>Inbound processing</strong>
-              <br />Inbound processing entails the handling of goods before,
-              during and immediately after arrival at a AMG warehouse. During
-              the inbound process, there is a constant information flow between
-              AMG and you, the customer. This ensures that you always have
-              up-to-date information regarding the status and the availability
-              of your incoming goods.
-            </p>
-            <p>
-              <strong>Warehousing processes</strong>
-              <br />The basic storage process itself does not include any
-              physical activities. There are, however, replenishment movements
-              and cycle counts. Replenishment involves transferring additional
-              items of an article from a storage location (usually located high
-              up and towards the back of the warehouse) to a picking location
-              (located lower down and in the front section of the warehouse).
-              Cycle counting is a physical check of the actual stock level
-              compared to the number of items registered as &lsquo;in stock
-              &rsquo;in the Warehouse Management System (WMS).
-            </p>
-            <p>
-              <strong>Outbound processing</strong>
-              <br />The outbound process entails managing and controlling
-              outgoing items, from the point of order receipt through picking
-              and packing of the items for each order and finally to the loading
-              of shipments onto the delivery trucks.
-            </p>
-            <h2>Freight management</h2>
-            <p>
-              Freight management oversees the planning, execution and
-              administration of all transport and distribution operations.
-              Freight solutions include parcels, road, rail, air and sea. You
-              can monitor shipments from any carrier in real time, 24/7, using
-              the myAMG track &amp;trace platform or via electronic data
-              interchange (EDI). Whichever system is used, you are assured of
-              transparency and visibility.
-            </p>
-            <h4>Freight management includes:</h4>
-            <ul>
-              <li>Order management</li>
-              <li>Shipment planning</li>
-              <li>Freight execution and monitoring</li>
-              <li>Exception reporting and Proof of Delivery</li>
-              <li>
-                Freight settlement (incl. freight invoice audit &amp;client
-                billing)
-              </li>
-              <li>
-                Performance reporting<br />
-                <br />To ensure that your requirements are fulfilled, we manage
-                distribution services including:
-              </li>
-              <li>Home deliveries</li>
-              <li>
-                Value-Added Services upon delivery (carry in, installation and
-                consignment services, white glove deliveries and cold chain)
-              </li>
-              <li>Returns</li>
-              <li>Repair services</li>
-            </ul>
+        <div class="page-content__container">
+          <div class="contact-us__wrapper">
+            <div class="contact-us__headlines">
+              <h2 class="module__header theme-text-color">Any questions?</h2>
+              <p class="module__manchet theme-text-color">
+                Our experts are ready to help. Get in touch and we'll find the
+                solution you need.
+              </p>
+            </div>
+            <div class="contact-us__image">
+              <img
+                alt="Contact us"
+                class="lazy"
+                src='data:image/svg+xml,%3Csvg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 432 514"%3E%3C/svg%3E'
+                data-src="https://dsv-media-premium.azureedge.net/~/media/corporate/contact-us/dsv_2016_sunilkotian_02_cut_out_1280x960.png?rev=6da2f6c51a5041a7922a97b5970fee89&w=432"
+                loading="lazy"
+              />
+            </div>
+            <div class="contact-us__ctas theme-text-color">
+              <div class="contact-us__cta">
+                <a
+                  class="cta cta--module"
+                  href="/en/support/help-and-contact?id11=1&amp;id16=11&amp;id32=5"
+                  >Contact us online</a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <!-- END: Controller: TextModule. Action: TextModule Time taken: 0ms -->
-      <!-- START: Controller: TextModule. Action: TextModule -->
-      <!-- END: Controller: TextModule. Action: TextModule Time taken: 0ms -->
-      <!-- START: Controller: SpotModule. Action: SpotModule -->
-      <section
-        id="{DA34D9C5-7C1A-4F69-8674-4A29620001A8}"
-        class="module spots module-columns--auto module-subitem-image-padding--none module-font-size--medium module-theme--grey module-padding--extra-small module-cta--primary box-theme--white"
-      >
-        <div class="page-content__container">
-          <header>
-            <h2 class="module__header theme-text-color">
-              Value-added services
-            </h2>
-            <p class="module__manchet theme-text-color">
-              Our specialist personnel are trained and experienced in handling:
-            </p>
-          </header>
-          <div>
-            <ul class="spots__list">
-              <li class="spot__item module-box">
-                <div class="spot__content no-link">
-                  <h3 class="box-text-color">Kitting/assembly</h3>
-                </div>
-              </li>
-              <li class="spot__item module-box">
-                <div class="spot__content no-link">
-                  <h3 class="box-text-color">testing</h3>
-                </div>
-              </li>
-              <li class="spot__item module-box">
-                <div class="spot__content no-link">
-                  <h3 class="box-text-color">packaging/ repackaging</h3>
-                </div>
-              </li>
-              <li class="spot__item module-box">
-                <div class="spot__content no-link">
-                  <h3 class="box-text-color">configuration/ customisation</h3>
-                </div>
-              </li>
-              <li class="spot__item module-box">
-                <div class="spot__content no-link">
-                  <h3 class="box-text-color">Labelling</h3>
-                </div>
-              </li>
-              <li class="spot__item module-box">
-                <div class="spot__content no-link">
-                  <h3 class="box-text-color">Repairs</h3>
-                </div>
-              </li>
-              <li class="spot__item module-box">
-                <div class="spot__content no-link">
-                  <h3 class="box-text-color">Quality Inspection</h3>
-                </div>
-              </li>
-              <li class="spot__item module-box">
-                <div class="spot__content no-link">
-                  <h3 class="box-text-color">Cargo insurance</h3>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <footer></footer>
-        </div>
-      </section>
-      <!-- END: Controller: SpotModule. Action: SpotModule Time taken: 1ms -->
-      <!-- START: Controller: SpotModule. Action: SpotModule -->
-      <!-- END: Controller: SpotModule. Action: SpotModule Time taken: 0ms -->
-      <!-- START: Controller: MicrosoftDynamicsForm. Action: MicrosoftDynamicsForm -->
-      <section
-        id="{2FFC1361-8014-4F95-A539-CA8704C95DD7}"
-        class="module ms-dynamics module-padding--small no-text"
-        data-utm='{"isUtmCapturingActive":true,"capturedUtmFieldList":[{"propertyId":"campaign","defaultValue":"","forceDefault":false},{"propertyId":"medium","defaultValue":"","forceDefault":false},{"propertyId":"source","defaultValue":"","forceDefault":false},{"propertyId":"content","defaultValue":"","forceDefault":false}]}'
-        data-translations-settings='{"translations":[]}'
-        data-dsv-country='{"name":""}'
-        data-lead-owner='{"title":""}'
-        data-contact-owner='{"title":""}'
-        data-subscription-topics="False"
-        data-redirect-link='{"title":"","url":""}'
-        data-success-message='""'
-        data-failure-message='""'
-      >
-        <div class="page-content__container">
-          <div
-            data-form-id="0b5c7b4c-1750-f011-877b-6045bd8e2657"
-            data-form-api-url="https://public-eur.mkt.dynamics.com/api/v1.0/orgs/e1b3e58a-679c-4fc8-8b95-8bb6c80e8ab5/landingpageforms"
-            data-cached-form-url="https://assets-eur.mkt.dynamics.com/e1b3e58a-679c-4fc8-8b95-8bb6c80e8ab5/digitalassets/forms/0b5c7b4c-1750-f011-877b-6045bd8e2657"
-          ></div>
-          <script src="https://cxppusa1formui01cdnsa01-endpoint.azureedge.net/eur/FormLoader/FormLoader.bundle.js"></script>
-        </div>
-      </section>
-      <!-- END: Controller: MicrosoftDynamicsForm. Action: MicrosoftDynamicsForm Time taken: 0ms -->
-      <!-- START: Controller: MicrosoftDynamicsForm. Action: MicrosoftDynamicsForm -->
-      <!-- END: Controller: MicrosoftDynamicsForm. Action: MicrosoftDynamicsForm Time taken: 0ms -->
+      <!-- END: Controller: ContactUs. Action: ContactUs Time taken: 0ms -->
       <!-- content end -->
     </main>
     
