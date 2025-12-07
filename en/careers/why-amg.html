@@ -1,55 +1,110 @@
-
 <!-- START: View: /Views/Common/Page.cshtml -->
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Security-Policy" content="object-src 'none'">
-<script type="text/javascript" src="https://presscloud.com/nr/lib/iframe-resizer/js/iframeResizer.min.js"></script>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Security-Policy" content="object-src 'none'" />
+    <script
+      type="text/javascript"
+      src="https://presscloud.com/nr/lib/iframe-resizer/js/iframeResizer.min.js"
+    ></script>
 
     <!-- Primary metadata -->
     <title>Global Transport and Logistics | AMG</title>
     <meta name="title" content="Global Transport and Logistics | AMG" />
-    <meta name="description" content="Global transport and logistics - road, air, sea, rail freight and warehousing. Contact us today." />
+    <meta
+      name="description"
+      content="Global transport and logistics - road, air, sea, rail freight and warehousing. Contact us today."
+    />
     <link rel="canonical" href="https://www.dsv.com/en/" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
     <meta name="sc-region-language" content="en" />
     <meta name="sc-pagetype" content="" />
 
     <!-- Preload for Fonts -->
-    <link rel="preload" href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Demi.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-    <link rel="preload" href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-    <link rel="preload" href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Book.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-    <link rel="preload" href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-    <link rel="preload" href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-ExtraBold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link
+      rel="preload"
+      href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Demi.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Book.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-Light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="https://dsv-media-premium.azureedge.net/frontend/base/static/dist/fonts/FoundrySterlingOT3W03-ExtraBold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://dsv-media-premium.azureedge.net/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://dsv-media-premium.azureedge.net/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://dsv-media-premium.azureedge.net/favicon-16x16.png">
-    <link rel="mask-icon" href="https://dsv-media-premium.azureedge.net/safari-pinned-tab.svg" color="#b70f18">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://dsv-media-premium.azureedge.net/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://dsv-media-premium.azureedge.net/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://dsv-media-premium.azureedge.net/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="https://dsv-media-premium.azureedge.net/safari-pinned-tab.svg"
+      color="#b70f18"
+    />
 
     <!-- Critical css -->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css" />
 
     <!-- Noncritial css -->
-    <link rel="preload" type="text/css" href="/assets/css/main.min.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.min2.css">
+    <link rel="preload" type="text/css" href="/assets/css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.min2.css" />
     <noscript>
-        <link rel="stylesheet" type="text/css" href="/assets/css/main.min3.css">
+      <link rel="stylesheet" type="text/css" href="/assets/css/main.min3.css" />
     </noscript>
 
-    <link rel="preload" href="/assets/js/main.min2.js">
+    <link rel="preload" href="/assets/js/main.min2.js" />
 
-    <script defer src="/assets/js/modernizr.js"></script>  
-</head>
+    <script defer src="/assets/js/modernizr.js"></script>
+  </head>
 
-<body>
-  
+  <body>
     <header class="header">
       <div class="page-content__container">
         <div class="header__top">
@@ -489,7 +544,7 @@
                       <li class="nav__sub-item">
                         <a
                           class="nav__link nav__link--sub"
-                          href="/en/careers/why-dsv"
+                          href="/en/careers/why-amg"
                           data-item-id="{BA4FC10B-7F0C-4FB7-AD0E-A8B373A571C4}"
                           data-item-title="Why join AMG"
                         >
@@ -1204,15 +1259,6 @@
                 Saskia Blochberger, Group CPO, <br />People & Organisation
               </p>
             </div>
-            <div class="contact-us__image">
-              <img
-                alt="Saskia Blochberger"
-                class="lazy"
-                src='data:image/svg+xml,%3Csvg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 432 514"%3E%3C/svg%3E'
-                data-src="https://dsv-media-premium.azureedge.net/~/media/corporate/contact-us/saskia-blochberger_1280x960.png?rev=e9acf2361a524aa28284838256e3f754&w=432"
-                loading="lazy"
-              />
-            </div>
             <div class="contact-us__ctas theme-text-color">
               <div class="contact-us__cta">
                 <a class="cta cta--module" href="/en/careers"
@@ -1226,192 +1272,280 @@
       <!-- END: Controller: ContactUs. Action: ContactUs Time taken: 0ms -->
       <!-- content end -->
     </main>
-    
-<footer class="footer">
-    <div class="page-content__container footer__link-list-container">
+
+    <footer class="footer">
+      <div class="page-content__container footer__link-list-container">
         <section class="col footer__link-list-item">
-            
-<!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
+          <!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
 
-    <h2>
-        Online tools
-    </h2>
+          <h2>Online tools</h2>
 
-    <ul>
+          <ul>
             <li>
-                <a class="footer-link__icon--" rel="noopener noreferrer" href="https://mydsv.com/new/frontpage/" target="_blank">Book</a>
+              <a
+                class="footer-link__icon--"
+                rel="noopener noreferrer"
+                href="https://mydsv.com/new/frontpage/"
+                target="_blank"
+                >Book</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/support/quote-request">Get a Quote</a>
+              <a class="footer-link__icon--" href="/en/support/quote-request"
+                >Get a Quote</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/support/self-services#{AF1A9641-19C2-4869-97A5-174080BD5597}">Track &amp; Trace</a>
+              <a
+                class="footer-link__icon--"
+                href="/en/support/self-services#{AF1A9641-19C2-4869-97A5-174080BD5597}"
+                >Track &amp; Trace</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/support/self-services">Self services</a>
+              <a class="footer-link__icon--" href="/en/support/self-services"
+                >Self services</a
+              >
             </li>
-    </ul>
+          </ul>
 
-<!-- END: Controller: FooterLinkList. Action: FooterLinkList Time taken: 0ms -->
+          <!-- END: Controller: FooterLinkList. Action: FooterLinkList Time taken: 0ms -->
 
-<!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
+          <!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
 
-    <h2>
-        Legal
-    </h2>
+          <h2>Legal</h2>
 
-    <ul>
+          <ul>
             <li>
-                <a class="footer-link__icon--" href="/en/about-dsv/legal-notice">Legal notice</a>
-            </li>
-            <li>
-                <a class="footer-link__icon--" href="/en/about-dsv/privacy-policy">Data privacy</a>
-            </li>
-            <li>
-                <a class="footer-link__icon--" onclick="javascript:CookieConsent.renew();return false;" href="#">Cookies</a>
+              <a class="footer-link__icon--" href="/en/about-dsv/legal-notice"
+                >Legal notice</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" rel="noopener noreferrer" href="https://docs.dsv.com/group/group-legal/dsv-standard-terms-and-conditions-eng/" target="_blank">Standard terms and conditions</a>
+              <a class="footer-link__icon--" href="/en/about-dsv/privacy-policy"
+                >Data privacy</a
+              >
             </li>
-    </ul>
+            <li>
+              <a
+                class="footer-link__icon--"
+                onclick="javascript:CookieConsent.renew();return false;"
+                href="#"
+                >Cookies</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-link__icon--"
+                rel="noopener noreferrer"
+                href="https://docs.dsv.com/group/group-legal/dsv-standard-terms-and-conditions-eng/"
+                target="_blank"
+                >Standard terms and conditions</a
+              >
+            </li>
+          </ul>
 
-<!-- END: Controller: FooterLinkList. Action: FooterLinkList Time taken: 0ms -->
-
+          <!-- END: Controller: FooterLinkList. Action: FooterLinkList Time taken: 0ms -->
         </section>
         <section class="col footer__link-list-item">
-            
-<!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
+          <!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
 
-    <h2>
-        Our solutions
-    </h2>
+          <h2>Our solutions</h2>
 
-    <ul>
+          <ul>
             <li>
-                <a class="footer-link__icon--" href="/en/our-solutions/industry-solutions">Industry solutions</a>
+              <a
+                class="footer-link__icon--"
+                href="/en/our-solutions/industry-solutions"
+                >Industry solutions</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/our-solutions/modes-of-transport/air-freight">Air Freight</a>
+              <a
+                class="footer-link__icon--"
+                href="/en/our-solutions/modes-of-transport/air-freight"
+                >Air Freight</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/our-solutions/modes-of-transport/sea-freight">Sea Freight</a>
+              <a
+                class="footer-link__icon--"
+                href="/en/our-solutions/modes-of-transport/sea-freight"
+                >Sea Freight</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/our-solutions/modes-of-transport/road-transport">Road Freight</a>
+              <a
+                class="footer-link__icon--"
+                href="/en/our-solutions/modes-of-transport/road-transport"
+                >Road Freight</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/our-solutions/modes-of-transport/project-transport">Project transport</a>
+              <a
+                class="footer-link__icon--"
+                href="/en/our-solutions/modes-of-transport/project-transport"
+                >Project transport</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/our-solutions/contract-logistics">Contract Logistics</a>
+              <a
+                class="footer-link__icon--"
+                href="/en/our-solutions/contract-logistics"
+                >Contract Logistics</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/our-solutions/decarbonising-logistics">Decarbonising Logistics</a>
+              <a
+                class="footer-link__icon--"
+                href="/en/our-solutions/decarbonising-logistics"
+                >Decarbonising Logistics</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/our-solutions">All solutions</a>
+              <a class="footer-link__icon--" href="/en/our-solutions"
+                >All solutions</a
+              >
             </li>
-    </ul>
+          </ul>
 
-<!-- END: Controller: FooterLinkList. Action: FooterLinkList Time taken: 1ms -->
+          <!-- END: Controller: FooterLinkList. Action: FooterLinkList Time taken: 1ms -->
 
-<!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
+          <!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
 
-
-
-<!-- END: Controller: FooterLinkList. Action: FooterLinkList Time taken: 0ms -->
-
+          <!-- END: Controller: FooterLinkList. Action: FooterLinkList Time taken: 0ms -->
         </section>
         <section class="col footer__link-list-item">
-            
-<!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
+          <!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
 
-    <h2>
-        AMG
-    </h2>
+          <h2>AMG</h2>
 
-    <ul>
+          <ul>
             <li>
-                <a class="footer-link__icon--" href="/en/support/help-and-contact">Contact us</a>
+              <a class="footer-link__icon--" href="/en/support/help-and-contact"
+                >Contact us</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/about-amg">About AMG</a>
+              <a class="footer-link__icon--" href="/en/about-amg">About AMG</a>
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/careers">Careers</a>
+              <a class="footer-link__icon--" href="/en/careers">Careers</a>
             </li>
             <li>
-                <a class="footer-link__icon--" rel="noopener noreferrer" href="https://investor.dsv.com/" target="_blank">Investor</a>
+              <a
+                class="footer-link__icon--"
+                rel="noopener noreferrer"
+                href="https://investor.dsv.com/"
+                target="_blank"
+                >Investor</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/about-dsv/press">Press</a>
+              <a class="footer-link__icon--" href="/en/about-dsv/press"
+                >Press</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/sustainability-esg">Sustainability</a>
+              <a class="footer-link__icon--" href="/en/sustainability-esg"
+                >Sustainability</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/support">Support</a>
+              <a class="footer-link__icon--" href="/en/support">Support</a>
             </li>
-    </ul>
+          </ul>
 
-<!-- END: Controller: FooterLinkList. Action: FooterLinkList Time taken: 0ms -->
+          <!-- END: Controller: FooterLinkList. Action: FooterLinkList Time taken: 0ms -->
 
-<!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
+          <!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
 
-
-
-<!-- END: Controller: FooterLinkList. Action: FooterLinkList Time taken: 0ms -->
-
+          <!-- END: Controller: FooterLinkList. Action: FooterLinkList Time taken: 0ms -->
         </section>
         <section class="col footer__link-list-item">
-            
-<!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
+          <!-- START: Controller: FooterLinkList. Action: FooterLinkList -->
 
-    <h2>
-        Follow Us
-    </h2>
+          <h2>Follow Us</h2>
 
-    <ul>
+          <ul>
             <li>
-                <a class="footer-link__icon--linkedin" rel="noopener noreferrer" title="LinkedIn" href="#" target="_blank">LinkedIn</a>
+              <a
+                class="footer-link__icon--linkedin"
+                rel="noopener noreferrer"
+                title="LinkedIn"
+                href="#"
+                target="_blank"
+                >LinkedIn</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--facebook" rel="noopener noreferrer" title="Facebook" href="#" target="_blank">Facebook</a>
+              <a
+                class="footer-link__icon--facebook"
+                rel="noopener noreferrer"
+                title="Facebook"
+                href="#"
+                target="_blank"
+                >Facebook</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--x" rel="noopener noreferrer" title="X" href="#" target="_blank">X</a>
+              <a
+                class="footer-link__icon--x"
+                rel="noopener noreferrer"
+                title="X"
+                href="#"
+                target="_blank"
+                >X</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--instagram" rel="noopener noreferrer" title="Instagram" href="#" target="_blank">Instagram</a>
+              <a
+                class="footer-link__icon--instagram"
+                rel="noopener noreferrer"
+                title="Instagram"
+                href="#"
+                target="_blank"
+                >Instagram</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--youtube" rel="noopener noreferrer" title="Youtube" href="#" target="_blank">YouTube</a>
+              <a
+                class="footer-link__icon--youtube"
+                rel="noopener noreferrer"
+                title="Youtube"
+                href="#"
+                target="_blank"
+                >YouTube</a
+              >
             </li>
             <li>
-                <a class="footer-link__icon--" href="/en/about-dsv/social-media-house-rules">Social Media House Rules</a>
+              <a
+                class="footer-link__icon--"
+                href="/en/about-dsv/social-media-house-rules"
+                >Social Media House Rules</a
+              >
             </li>
-    </ul>
+          </ul>
 
-
-<div class="stock">
-    <h2>
-        Stock quote prices
-    </h2>
-    <p>
-        <a href="https://investor.dsv.com/shares-bonds/share-information" rel="noopener noreferrer" DisableWebEdit="True" target="_blank"><span id="stockQuote">Retrieving Stock Quotes...</span></a>
-    </p>
-</div>
-
-
+          <div class="stock">
+            <h2>Stock quote prices</h2>
+            <p>
+              <a
+                href="https://investor.dsv.com/shares-bonds/share-information"
+                rel="noopener noreferrer"
+                DisableWebEdit="True"
+                target="_blank"
+                ><span id="stockQuote">Retrieving Stock Quotes...</span></a
+              >
+            </p>
+          </div>
         </section>
-    </div>
-    <div class="page-content__container">
-        <p class="copyright">
-            &#169; AMG - All rights reserved
-        </p>
-    </div>
-</footer>
+      </div>
+      <div class="page-content__container">
+        <p class="copyright">&#169; AMG - All rights reserved</p>
+      </div>
+    </footer>
 
     <script defer src="/assets/js/main.min.js"></script>
-</body>
+  </body>
 </html>
