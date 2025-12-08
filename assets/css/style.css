@@ -2367,7 +2367,7 @@ header ~ .page-content {
 }
 .header__logo--small {
   display: block;
-  height: 20px;
+  /* height: 20px; */
   width: 68px;
 }
 @media screen and (min-width: 64em) {

@@ -12714,7 +12714,7 @@ body:not(.font-loaded--Md) .digital-solutions {
   width: fit-content;
   padding: 12px;
   color: #bfc9d8;
-  background: #002c75;
+  background: #b70f18;
   cursor: pointer;
 }
 .digital-solutions__tag.active {
@@ -12728,7 +12728,7 @@ body:not(.font-loaded--Md) .digital-solutions {
 .digital-solutions__slide {
   display: grid;
   grid-template-columns: 1fr;
-  background: #002c75;
+  background: #b70f18;
 }
 @media screen and (min-width: 64em) {
   .digital-solutions__slide {
@@ -15702,7 +15702,7 @@ body:not(.font-loaded--Md) .new-selfservices {
   grid-template-columns: 1fr;
   align-items: center;
   color: #fff;
-  background: #002c75;
+  background: #b70f18;
 }
 .new-selfservices .headline__container.image .headline__column {
   padding: 48px 24px;
