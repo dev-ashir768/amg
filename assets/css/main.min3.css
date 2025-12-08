@@ -16714,7 +16714,7 @@ body:not(.font-loaded--Bold) .footer__site-selector-description .bold {
 }
 .footer .copyright {
   text-align: right;
-  color: #7ea5c7;
+color: #fff;
 }
 .pagination {
   display: flex;
