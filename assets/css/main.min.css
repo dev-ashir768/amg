@@ -16715,6 +16715,7 @@ body:not(.font-loaded--Bold) .footer__site-selector-description .bold {
 .footer .copyright {
   text-align: right;
   color: #fff;
+  margin: 0px;
 }
 .pagination {
   display: flex;
